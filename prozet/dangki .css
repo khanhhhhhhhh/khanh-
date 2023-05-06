@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  padding: 30px;
+  background-image: url("https://www.shutterstock.com/image-photo/fashion-stylish-sneakers-flying-laces-260nw-1913069521.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+
+
+/* CSS cho form đăng ký */
+#register-form {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+ position: absolute;
+  padding: 20px;
+  border: 1px solid #472020;
+  border-radius: 5px;
+  left: 200px;
+  top: 70px;
+}
+
+#register-formh2 {
+  margin-top: 0;
+}
+
+#register-formlabel {
+  margin-top: 10px;
+}
+
+#register-form input[type="text"],
+#register-form input[type="email"],
+#register-form input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#register-form button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#register-formbutton[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* CSS cho form đăng nhập */

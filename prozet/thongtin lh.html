@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>thông tin liên hệ</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="thongtin lh.css">
+  <style>
+	  
+  </style>
+</head> 
+<body>
+	<div class="container">
+		<div class="jumbotron text-center bg-success text-white">
+			<h2>Thông tin liên hệ</h2>
+			
+		</div>
+		<div class="form-row">
+			<div class="col-md-3">
+				<label>Tên <span class="errdiv"> *</span></label>
+				<input id="txtName" type="text" class="form-control txt txtName" placeholder="Nhập tên" required>
+				<input id="txtId" type="hidden" class="form-control txt">
+			</div>
+			<div class="col-md-3 col-sm-6 col-6">
+				<label>Số điện thoại <span class="errdiv"> *</span></label>
+				<input id="txtContact" data-type="number" type="text" minlength="10" maxlength="10"
+				class="form-control txt txtContact" placeholder="Nhập số điện thoại" required>
+			</div>
+			<div class="col-md-3 col-sm-6 col-6">
+				<label>Email</label>
+				<input id="txtAltNo" type="email" class="form-control txt txtAltNo" 
+				placeholder="Email">
+			</div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 col-sm-7">
+        <label>Địa chỉ <span class="errdiv"> *</span></label>
+        <textarea id="txtAddress" class="form-control txt txtAddress" rows="3" minlength="15"
+		placeholder="Địa chỉ" required></textarea>
+	</div>
+</div>
+<div class="row pt-2">
+	<div class="col-md-2">
+		<button type="button" class="btn btn-success" id="btnSave">Lưu</button>
+	</div>
+	<div class="col-md-2">
+		<button type="button" class="btn btn-secondary" id="btnClear">Xóa</button>
+	</div>
+</div>
+<div class="row pt-3">
+	<div class="col-md-12 col-sm-12 col-12 p-2 ">
+		<table id="tblData" class="table table-bordered table-hover table-striped">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th> Tên</th>
+					<th>Số điện thoại</th>
+					<th>Email</th>
+					<th>Địa chỉ</th>
+					<th class="text-center">Thao tác</th>
+				</tr>
+			</thead>
+			<tbody> 
+			</tbody>
+        </table>
+	</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="thongtin lh.js">
+    
+  </script>
+</body>
+
+</html>

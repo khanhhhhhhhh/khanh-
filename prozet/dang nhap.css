@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    padding: 30px;
+    background-image: url("https://bizweb.dktcdn.net/100/319/652/articles/c1d0aab87ffbe1b1bfd5da75e3606536.png?v=1634186297100");
+    background-size: cover;
+  }
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #472020;
+    border-radius: 5px;
+    background-color: #ccc;
+    
+  }
+  
+  #login-form h2 {
+    margin-top: 0;
+  }
+  
+  #login-form label {
+    margin-top: 10px;
+  }
+  #login-password {
+    height: 39px;
+    border-radius: 5px;
+  }
+  
+  #login-form input[type="text"],
+  
+  #login-forminput[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #login-form button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  #login-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
